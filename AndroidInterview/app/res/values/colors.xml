@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f9c5b1</color>
+    <color name="colorPrimaryDark">#f9c5b1</color>
+    <color name="colorAccent">#FF9c81</color>
+    <color name="toobar_text_color">#b8b8b8</color>
+    <color name="text_second_color_primary">#bbbbbb</color>
+    <color name="window_background">@android:color/white</color>
+</resources>

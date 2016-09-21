@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android面试题</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+</resources>

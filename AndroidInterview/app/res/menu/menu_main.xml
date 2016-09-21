@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_more"
+          android:title="test"
+          android:icon="@drawable/ic_more_grey"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:title="@string/setting"
+                />
+            <item
+                android:id="@+id/sync"
+                android:title="@string/about"
+                />
+            <item
+                android:id="@+id/about"
+                android:title="test"
+                />
+        </menu>
+    </item>
+</menu>
