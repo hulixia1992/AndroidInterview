@@ -22,4 +22,16 @@ public abstract class BaseActivity extends AppCompatActivity {
         getTheme().resolveAttribute(R.attr.colorPrimary, typedValue, true);
         return typedValue.data;
     }
+
+    public int getColorPrimaryDark() {
+        TypedValue typedValue = new TypedValue();
+        getTheme().resolveAttribute(R.attr.colorPrimaryDark, typedValue, true);
+        return typedValue.data;
+    }
+
+    public int getColorAccent() {
+        TypedValue typedValue = new TypedValue();
+        getTheme().resolveAttribute(R.attr.colorAccent, typedValue, true);
+        return typedValue.data;
+    }
 }
