@@ -6,4 +6,5 @@
     <color name="toobar_text_color">#b8b8b8</color>
     <color name="text_second_color_primary">#bbbbbb</color>
     <color name="window_background">@android:color/white</color>
+    <color name="transparent">#9000</color>
 </resources>
